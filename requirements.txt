@@ -5,4 +5,4 @@ certifi>=0.0.8
 chardet>=1.0.1
 distribute>=0.6.24
 gunicorn>=19.5.0
-requests>=2.20.
+requests>=2.23.0
