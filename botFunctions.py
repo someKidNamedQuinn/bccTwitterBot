@@ -84,10 +84,12 @@ def tweet(newCaddyLst):
     tempTweet = ''
     tweets = []
     while len(newCaddyLst) != 0:
+        
         if len(tempTweet) < 240:
             tempTweet += (newCaddyLst[0] + "\n")
             del newCaddyLst[0]
-        elif len(tempTweet) > 240:
+            
+        else:
             tweets.append(tempTweet)
             tempTweet = ''
     tweets.append(tempTweet)
