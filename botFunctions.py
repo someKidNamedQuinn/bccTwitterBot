@@ -72,6 +72,7 @@ def getNewLst():
 def tweet(newCaddyLst):
     
     if oldList == newCaddyLst:
+        print("TESTING")
         return
     else: 
         oldList = newCaddyLst
