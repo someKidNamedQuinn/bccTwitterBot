@@ -70,6 +70,12 @@ def getNewLst():
 
 #tweet out the caddylst
 def tweet(newCaddyLst):
+    
+    if oldList == newList:
+        return
+    else: 
+        oldList = newList
+    
     # Authenticate to Twitter
     auth = tweepy.OAuthHandler(API_KEY, API_KEY_SECRET)
     auth.set_access_token(ACCESS_TOKEN, ACESS_TOKEN_SECRET)
