@@ -4,6 +4,7 @@ import time
 def main():
     try:
         newCaddyLst = startApplication()
+        print(newCaddyLst)
 
     except:
         print("Failed to reach BCC website")
