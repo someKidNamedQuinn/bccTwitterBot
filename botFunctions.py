@@ -76,6 +76,7 @@ def tweet(newCaddyLst):
         return
     else: 
         oldList = newCaddyLst
+        print(oldList)
     
     # Authenticate to Twitter
     auth = tweepy.OAuthHandler(API_KEY, API_KEY_SECRET)
