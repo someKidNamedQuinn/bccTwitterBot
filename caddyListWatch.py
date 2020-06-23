@@ -5,6 +5,7 @@ def main():
     try:
         newCaddyLst = startApplication()
         print(newCaddyLst)
+        print(oldList)
 
     except:
         print("Failed to reach BCC website")
